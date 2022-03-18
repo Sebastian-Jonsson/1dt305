@@ -1,0 +1,36 @@
+{
+    "wifi": {
+        "ssid": "placeholder",
+        "password": "placeholder"
+    },
+    "wlan_antenna": 0,
+    "dump_ca": false,
+    "lora": {
+        "otaa": {
+            "app_key": "placeholder",
+            "app_eui": "placeholder",
+            "app_device_eui": "placeholder"
+        }
+    },
+    "server": "mqtt.pybytes.pycom.io",
+    "ssl": false,
+    "lte": {
+        "apn": "",
+        "cid": 0,
+        "reset": false,
+        "carrier": "",
+        "band": 0,
+        "type": ""
+    },
+    "device_id": "placeholder",
+    "network_preferences": [
+        "wifi",
+        "lora_otaa"
+    ],
+    "ota_server": {
+        "port": 443,
+        "domain": "software.pycom.io"
+    },
+    "pybytes_autostart": true,
+    "username": "sj223gb@student.lnu.se"
+}
